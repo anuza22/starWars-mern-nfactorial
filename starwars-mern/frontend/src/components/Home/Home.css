@@ -1,0 +1,57 @@
+.home-container {
+  background-image: url('https://i.pinimg.com/originals/c8/dd/b4/c8ddb4a2b9f016bd303184a20025caa8.jpg'); 
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  padding: 20px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.home-title {
+  font-family: 'Star Jedi', sans-serif; 
+  margin-bottom: 30px;
+  font-size: 3rem;
+  text-align: center;
+}
+
+.films-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.film-card {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.film-card:hover {
+  transform: scale(1.05);
+}
+
+.film-image {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.film-info {
+  margin-top: 15px;
+}
+
+.film-info h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.film-info p {
+  font-size: 1rem;
+  line-height: 1.5;
+}
