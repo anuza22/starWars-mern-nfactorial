@@ -1,4 +1,4 @@
-# Star Wars Information Hub
+# Star Wars
 
 This project is a Star Wars-themed web application that allows users to search for planets and characters from the Star Wars universe. It was created using React, and data is fetched from the SWAPI (Star Wars API). The backend was attempted using Node.js and Express.js, with MongoDB Atlas as the database, but there were issues with data persistence.
 
