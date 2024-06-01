@@ -109,13 +109,13 @@ An attempt was made to implement a backend using Node.js and Express.js with Mon
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/star-wars-info.git
+git clone https://github.com/anuza22/starWars-mern-nfactorial.git
 ```
 
 2. Navigate to the project directory:
 
 ```bash
-cd star-wars-info
+cd starwars-mern
 ```
 
 3. Install dependencies:
